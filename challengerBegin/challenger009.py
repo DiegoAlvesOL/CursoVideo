@@ -1,7 +1,7 @@
 print("="*17)
-print("==CHALLENGER007==")
+print("==CHALLENGER009==")
 print("="*17)
-print("The aim of this programme is to read a integer number and display its multiplication table")
+print("The purpose of this programme is to read a integer number and display its multiplication table")
 print("="*17)
 
 num = int(input("Enter with integer number: "))
