@@ -5,9 +5,9 @@ print("the purpose of this programme is to receive a value in real and convert i
 print("="*17)
 
 balance = float(input("please enter how much mooney do you have: "))
-dollar = 5.00
+dollar = float(input("inform the dollar amount: "))
 
 conversionResult = balance / dollar
 
-print("you can buy ", conversionResult)
+print("With R${:.2f} you can buy U${:.2f}".format(balance, conversionResult))
 
