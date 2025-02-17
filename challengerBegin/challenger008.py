@@ -8,4 +8,7 @@ metres = float(input("tipe your measurement in metres: "))
 centimetres = metres *100
 millimetres = metres *1000
 
-print("the result of the conversion is. In centimetres the measurement is,", centimetres, "while in millimetres it is", millimetres)
+print("the result of the conversion is:")
+print("In centimetres the measurement is, {:.0f}cm while in millimetres it is {:.0f}mm".format(centimetres, millimetres))
+
+# print("the result of the conversion is. In centimetres the measurement is,", centimetres, "while in millimetres it is", millimetres)

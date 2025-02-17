@@ -12,4 +12,5 @@ num4 = num**(1/2)
 print ("the number you entered was {} the double of this number is {}".format(num, num2))
 print ("the triple is igual to {} and the square root is {:.2f}".format(num3, num4))
 
+# a formatação {:.2f} representa que só será exibido para o usuário 2 número após o ponto.
 # print("the number you entered was", num, "the double of this number is ", num2, "the triple is", num3, "and the square root is ",num4)
