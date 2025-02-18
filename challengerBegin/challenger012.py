@@ -8,7 +8,7 @@ priceProduct = float(input("Enter the valoue of the product: "))
 descont =int(input("Enter the desont: "))
 
 descontPrice = (priceProduct/100)*descont
-print(descontPrice)
+print("{:.2f}".format(descontPrice))
 finalPrice = priceProduct-descontPrice
 
-print("The final value of the product is: ",finalPrice)
+print("The final value of the product is, R${:.2f}".format(finalPrice))

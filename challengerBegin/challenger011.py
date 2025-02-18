@@ -6,8 +6,8 @@ print("="*17)
 
 #height =  altura  width = largura
 
-width = int(input("Please enter with width of the wall: "))
-height = int(input("Please enter with height of the wall: "))
+width = float(input("Please enter with width of the wall: "))
+height = float(input("Please enter with height of the wall: "))
 
 totalArea = width*height
 
@@ -16,4 +16,6 @@ print("The total area is", totalArea)
 inkArea = 2
 inkNeed = totalArea/inkArea
 
-print("You need ",inkNeed, "liters of ink to paint all the wall")
+print("You need {} liters of ink to paint all the wall".format(inkNeed))
+
+# print("You need ",inkNeed, "liters of ink to paint all the wall")
