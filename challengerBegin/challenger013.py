@@ -10,4 +10,4 @@ percentage = int(input("Indicate how many per cent will be added to the employee
 addedValue = (currentSalary/100)*percentage
 newSalary = currentSalary+addedValue
 
-print("The new salary of the employee is : ",newSalary)
+print("The new salary of the employee is R${:.2f}: ".format(newSalary))
